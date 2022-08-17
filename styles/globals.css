@@ -7,3 +7,18 @@
       font-family: Plus Jakarta Sans, sans-serif
     }
   }
+
+  @layer components {
+    .heading-s {
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 15px;
+      letter-spacing: 2.4px;
+    }
+
+    .heading-m {
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 19px;
+    }
+  }

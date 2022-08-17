@@ -7,7 +7,7 @@ export default function Layout({ children }) {
       <Sidebar />
       <div className="flex w-full flex-col">
         <Topbar />
-        <main>{children}</main>
+        <main className="bg-selago h-full">{children}</main>
       </div>
     </div>
   );
